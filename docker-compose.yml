@@ -1,0 +1,10 @@
+movieservices:
+  postgres:
+    image: "postgres:latest"
+    container_name: movieflixdb
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: movieflixdb
