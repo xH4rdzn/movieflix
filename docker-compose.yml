@@ -1,4 +1,4 @@
-movieservices:
+services:
   postgres:
     image: "postgres:latest"
     container_name: movieflixdb
